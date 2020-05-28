@@ -7,6 +7,7 @@
     <title>BookShala Presentaion</title>
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/sal.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -100,6 +101,21 @@
                 </p>
                 <!-- slide3 over -->
             </section>
+            <!--  -->
+            <section class="tech">
+                <h4>Technology used</h4>
+                <img data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-back" src="img/html-5.svg"
+                    alt="">
+                <img data-sal="slide-up" data-sal-delay="400" data-sal-easing="ease-out-back" src="img/css3.svg" alt="">
+                <img data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-back" src="img/js.svg" alt="">
+                <img data-sal="slide-up" data-sal-delay="600" data-sal-easing="ease-out-back" src="img/bootstrap.svg"
+                    alt="">
+                <img data-sal="slide-up" data-sal-delay="700" data-sal-easing="ease-out-back" src="img/django.svg"
+                    alt="">
+                <img data-sal="slide-up" data-sal-delay="800" data-sal-easing="ease-out-back" src="img/SQLite.svg"
+                    alt="">
+            </section>
+            <!--  -->
             <!-- slide4 -->
             <section class="slide4">
                 <h4> HARDWARE REQUIREMENTS</h4>
@@ -140,22 +156,34 @@
             <!-- slide6 over -->
             <!-- slide7 -->
             <section class="slide7">
-                <h4>Future Scope</h4>
-                <ul>
-                    <li>
-                        It can be a great platform for students to buy books in affordable range.
-
-
-                    </li>
-                    <li>
-                        Buyer can save their money and can buy 2nd hand good quality books at affordable rates and can
-                        also negotiate with the seller directly.
-                    </li>
-                    <li>
-                        Also seller can earn with his last semester books and can use that money for their next semester
-                        books
-                    </li>
-                </ul>
+                <section>
+                    <h4>Future Scope</h4>
+                    <ul>
+                        <li>
+                            It can be a great platform for students to buy books in affordable range.
+                        </li>
+                        <li>
+                            Buyer can save their money and can buy 2nd hand good quality books at affordable rates and
+                            can
+                            also negotiate with the seller directly.
+                        </li>
+                        <li>
+                            Also seller can earn with his last semester books and can use that money for their next
+                            semester
+                            books
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Advantages</h4>
+                    <ul>
+                        <li>Win-Win situation for both Parties.</li>
+                        <li>Time saving.</li>
+                        <li>Easy buying and selling of Used books.</li>
+                        <li> Value for money.</li>
+                        <li>Also We don’t charge any kind of middle man commission.</li>
+                    </ul>
+                </section>
             </section>
             <!-- slide7 over -->
             <section>
@@ -165,8 +193,12 @@
         </div>
     </div>
     <script src="js/reveal.js"></script>
+    <script src="js/sal.js"></script>
     <script>
         Reveal.initialize();
+        sal({
+            once: false,
+        });
     </script>
 </body>
 
