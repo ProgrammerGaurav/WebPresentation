@@ -1,0 +1,16 @@
+.slide1 p {
+    background-color: aliceblue;
+    color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.slide3 p,
+.slide4 p {
+
+    font-size: 30px;
+}
+
+.slide7 ul li {
+    font-size: 30px;
+}
