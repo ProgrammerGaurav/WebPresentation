@@ -1,6 +1,6 @@
-# WebPresentation
+# Web Presentation
 reveal.js is an open source HTML presentation framework. It's a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.
-### Istallation
+### Installation
 ```
 npm install reveal.js
 ```
